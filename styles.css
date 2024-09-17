@@ -73,24 +73,16 @@ font-size: 25px;
 }
 
 .post-icons-1 {
-    background-color: white;
-    width: auto;
-    margin: auto;
-    font-size: 20px;
-    padding-left: 15px;
-    padding-top: 15px;
-    flex-direction: row;
+   font-size: 20px;
+   padding: 10px;
+
+   
 }
 
-.post-icons-2 {
-    background-color: white;
-    width: auto;
-    margin: auto;
-    font-size: 20px;
-    flex-direction:row;
-    
-     
+.fa-bookmark {
+    float: right;
 }
+
 
 
     
