@@ -7,27 +7,90 @@ body {
 }
 
 .post {
-    background-color: azure;
+    background-color: white;
     width: 500px;
     height: 600px;
-    margin-top: 100px;
+    margin-top: 90px;
 }
+
 
 .post-header {
     display: flex;
 }
 
-.post-header :last-child {
-    flex-wrap: wrap;
+
+.icono-1 {
+    font-size: 33px;
+    padding-top: 20px;
+    margin: 10px;
+    
 }
 
-p {
- align-self: baseline;
+
+.icono-2 {
+justify-content: flex-end;
+padding-top: 33px;
+padding-left: 360px;
+font-size: 25px;
 }
+
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    padding-top: 30px;
+    padding-left: 8px;
+}
+
+.header-text p {
+    margin: 0;
+}
+
+.image {
+    width: auto;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.image img {
+    background-color: white;
+    width: auto;
+    height: auto;
+    border: 5px;
+}
+
 
 .icons {
     display: flex;
+    margin: auto;
     justify-content: space-between;
-    padding: 0px 10px 0px 10px;
-    width: 90%;
+    
 }
+
+.post-icons-1 {
+    background-color: white;
+    width: auto;
+    margin: auto;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-top: 15px;
+    flex-direction: row;
+}
+
+.post-icons-2 {
+    background-color: white;
+    width: auto;
+    margin: auto;
+    font-size: 20px;
+    flex-direction:row;
+    
+     
+}
+
+
+    
