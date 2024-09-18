@@ -83,6 +83,9 @@ font-size: 25px;
     float: right;
 }
 
-
+p {
+    margin-left: 12px;
+    margin-right: 8px;
+}
 
     
